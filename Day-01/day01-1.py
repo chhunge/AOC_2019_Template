@@ -3,12 +3,8 @@ def main(puzzle_input):
     puzzle_input = puzzle_input.splitlines()
     sum = 0
     for module in puzzle_input:
-        sum += int(module)
-
-    # Solve the puzzle
-    solution = (int(sum/3)) - 2
-
-    return str(solution)
+        sum += (int(int(module)/3)) - 2
+    return str(sum)
 
 
 def get_input(filename):
