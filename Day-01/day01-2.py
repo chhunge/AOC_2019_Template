@@ -20,7 +20,7 @@ def main(puzzle_input):
 
         total_fuel += module_fuel
 
-    return str(total_fuel)
+    return total_fuel
 
 def get_input(filename):
     with open(filename) as f:

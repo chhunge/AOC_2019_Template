@@ -4,7 +4,7 @@ def main(puzzle_input):
     sum = 0
     for module in puzzle_input:
         sum += (int(int(module)/3)) - 2
-    return str(sum)
+    return sum
 
 
 def get_input(filename):
